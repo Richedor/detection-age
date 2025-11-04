@@ -1,5 +1,10 @@
 # detection-age
 
+![Python](https://img.shields.io/badge/python-3.8%2B-blue)
+![OpenCV](https://img.shields.io/badge/OpenCV-DNN-green)
+![DeepFace](https://img.shields.io/badge/DeepFace-optional-lightgrey)
+![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-informational)
+
 Outil minimal de détection/estimation d'âge sur image ou webcam. Par défaut, il s'appuie sur le moteur OpenCV DNN et sur les modèles Caffe classiques (`age_net.caffemodel` + détecteur SSD). Un mode de secours `deepface` est disponible si vous avez installé le package.
 
 ## Prérequis
