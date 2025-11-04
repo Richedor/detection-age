@@ -1,0 +1,6 @@
+opencv-python
+numpy
+# Optionnel mais inclus: moteur DeepFace et compatibilité Keras pour TF 2.19
+deepface
+tf-keras==2.19.*
+
